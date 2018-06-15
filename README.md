@@ -1,2 +1,2 @@
 # OSD-Feature1
-Project Scheduler.
+Project Scheduler extension that manages the project based on the deadline.
