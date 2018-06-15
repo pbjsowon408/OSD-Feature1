@@ -1,0 +1,24 @@
+{
+
+  "description": "OSD Feature 1",
+  "manifest_version": 2,
+  "name": "ProjectScheduler",
+  "version": "1",
+
+  "icons": {
+    "32": "logo_32.png",
+    "64": "logo_64.png"
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "browser_action": {
+    "default_icon": "logo_32.png",
+    "default_title": "ProjectScheduler",
+    "default_popup": "index.html"
+  },
+  "permissions": ["storage"]
+
+}
